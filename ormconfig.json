@@ -1,6 +1,6 @@
 {
-  "username": "postgres",
-  "password": "docker",
+  "username": "finapi",
+  "password": "finapi",
 
   "name": "default",
   "type": "postgres",

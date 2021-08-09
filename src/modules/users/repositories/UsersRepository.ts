@@ -13,7 +13,7 @@ export class UsersRepository implements IUsersRepository {
 
   async findByEmail(email: string): Promise<User | undefined> {
     return this.repository.findOne({
-      email,
+      where: {email},
     });
   }
 
